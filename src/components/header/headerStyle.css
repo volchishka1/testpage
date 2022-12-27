@@ -38,7 +38,6 @@
 .vector-down {
     padding-left: 2px;
     padding-bottom: 1px;
-
 }
 
 .button-container {
@@ -69,7 +68,7 @@
     border-width: 1px;
 }
 
-.sing-up-text {
+.button-text {
     width: 62px;
     height: 24px;
     font-family: 'Poppins';
@@ -79,3 +78,4 @@
     line-height: 24px;
     color: #FDF5FF;
 }
+

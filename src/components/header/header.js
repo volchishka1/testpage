@@ -1,9 +1,11 @@
 import './headerStyle.css'
 import logoSvg from "../../assets/logoSvg.svg";
 import vectorDown from "../../assets/vectorDown.svg";
+import {CustomButton} from "../customButton/customButton";
 
 export const Header = () => {
     return (
+        <div>
         <header className="App-header-container">
             <div className="Header-logo-container">
                 <img src={logoSvg} alt="logoSvg" />
@@ -22,12 +24,9 @@ export const Header = () => {
               <span className="login-text">
                   Login
               </span>
-                <button className="sign-up-button">
-                  <span className="sing-up-text">
-                  Sign Up
-                  </span>
-                </button>
+                <CustomButton buttonText="Sign Up" />
             </div>
         </header>
+        </div>
 );
 }
