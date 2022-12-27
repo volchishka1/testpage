@@ -1,4 +1,5 @@
 import logoSvg from './assets/logoSvg.svg';
+import vectorDown from './assets/vectorDown.svg';
 import './App.css';
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
           </div>
           <div className="Header-text-center-container">
               <span>Home</span>
-              <span>Categories</span>
+              <div>
+                  <span>Categories</span>
+                  <img className="vector-down" src={vectorDown} alt={vectorDown}/>
+              </div>
               <span>My collections</span>
               <span>Blog</span>
           </div>

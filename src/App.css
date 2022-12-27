@@ -50,6 +50,16 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  width: 431px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.vector-down {
+  padding-left: 2px;
+  padding-bottom: 1px;
+
 }
 
 .button-container {
