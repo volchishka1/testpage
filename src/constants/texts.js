@@ -1,0 +1,22 @@
+export const singUp = "Sign Up";
+export const blog = "Blog";
+export const myCollections = "Blog";
+export const categories = "Categories";
+export const antools = "antools.";
+export const home = "Home";
+export const login = "Login";
+export const header = "Awesome tools for Designer & Developer";
+export const headerOne = "Antool is a web collection of information on paid or free Design and Development tools";
+export const searchButton = "Search";
+export const tools = "Most Popular Tools";
+export const descriptionTools = "Tools for the best Designers and Developers most popularly used in the world";
+export const figma = "Figma";
+export const sketch = "Sketch";
+export const visualStudio = "Visual Studio Code";
+export const notion = "Notion";
+export const slack = "Slack";
+export const invision = "Invision";
+export const free = "Free";
+export const freePaid = "Free & Paid";
+export const trialPaid = "Trial & Paid";
+
