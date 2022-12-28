@@ -24,8 +24,8 @@ export const Tools = () => {
     return (
         <div className="tools-container">
             <div className="header-container">
-                <span className="header">{tools}</span>
-                <span className="headerOne">{descriptionTools}</span>
+                <span className="headers">{tools}</span>
+                <span className="header-one">{descriptionTools}</span>
             </div>
             <div className="instruments-container-top">
                 <CustomInstrument name={figma} status={free} iconName={figmaIcon}/>

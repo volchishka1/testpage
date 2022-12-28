@@ -1,4 +1,4 @@
-import "../../assets/descriptioneOne.css"
+import "./descriptioneOne.css"
 import illustration from "../../assets/illustration.svg";
 import facebookIcon from "../../assets/facebookIcon.svg";
 import instaIcon from "../../assets/instaIcon.svg";

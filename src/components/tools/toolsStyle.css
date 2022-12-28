@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-.header {
+.headers {
     width: 455px;
     font-family: 'Poppins';
     font-style: normal;
@@ -22,7 +22,7 @@
     color: rgba(255, 255, 255, 0.9);
 }
 
-.headerOne {
+.header-one {
     margin-top: 25px;
     width: 350px;
     font-family: 'Poppins';
