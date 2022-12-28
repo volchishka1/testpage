@@ -2,6 +2,7 @@ import './headerStyle.css'
 import logoSvg from "../../assets/logoSvg.svg";
 import vectorDown from "../../assets/vectorDown.svg";
 import {CustomButton} from "../customButton/customButton";
+import {blog, myCollections, singUp, categories, antools, home, login} from "../constants";
 
 export const Header = () => {
     return (
@@ -9,22 +10,22 @@ export const Header = () => {
         <header className="App-header-container">
             <div className="Header-logo-container">
                 <img src={logoSvg} alt="logoSvg" />
-                <span className="Logo-text">antools.</span>
+                <span className="Logo-text">{antools}</span>
             </div>
             <div className="Header-text-center-container">
-                <span>Home</span>
+                <span>{home}</span>
                 <div>
-                    <span>Categories</span>
+                    <span>{categories}</span>
                     <img className="vector-down" src={vectorDown} alt={vectorDown}/>
                 </div>
-                <span>My collections</span>
-                <span>Blog</span>
+                <span>{myCollections}</span>
+                <span>{blog}</span>
             </div>
             <div className="button-container">
               <span className="login-text">
-                  Login
+                  {login}
               </span>
-                <CustomButton buttonText="Sign Up" />
+                <CustomButton buttonText={singUp} />
             </div>
         </header>
         </div>
