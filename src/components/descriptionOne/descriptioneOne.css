@@ -65,11 +65,12 @@
 }
 
 .input-description {
-    color: #283036;
+    color: rgba(255, 255, 255, 0.38);
     height: 20px;
     width: 190px;
     margin-left: 13px;
-
+    background-color: #283036;
+    border-width: 0px;
 }
 
 .social-network {
