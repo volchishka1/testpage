@@ -2,7 +2,7 @@ import './headerStyle.css'
 import logoSvg from "../../assets/logoSvg.svg";
 import vectorDown from "../../assets/vectorDown.svg";
 import {CustomButton} from "../customButton/customButton";
-import {blog, myCollections, singUp, categories, antools, home, login} from "../constants";
+import {blog, myCollections, singUp, categories, antools, home, login} from "../../constants";
 
 export const Header = () => {
     return (

@@ -1,11 +1,11 @@
-import "./descriptioneOne.css"
+import "../../assets/descriptioneOne.css"
 import illustration from "../../assets/illustration.svg";
 import facebookIcon from "../../assets/facebookIcon.svg";
 import instaIcon from "../../assets/instaIcon.svg";
 import twitterIcon from "../../assets/twitterIcon.svg";
 import search from "../../assets/search.svg";
 import {CustomButton} from "../customButton/customButton";
-import {header, headerOne, searchButton} from "../constants";
+import {header, headerOne, searchButton} from "../../constants";
 export const DescriptionOne = () => {
     return (
         <div className="description-container">
