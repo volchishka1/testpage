@@ -7,4 +7,4 @@ export const home = "Home";
 export const login = "Login";
 export const header = "Awesome tools for Designer & Developer";
 export const headerOne = "Antool is a web collection of information on paid or free Design and Development tools";
-export const search = "Search";
+export const searchButton = "Search";

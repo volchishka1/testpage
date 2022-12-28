@@ -5,7 +5,7 @@ import instaIcon from "../../assets/instaIcon.svg";
 import twitterIcon from "../../assets/twitterIcon.svg";
 import search from "../../assets/search.svg";
 import {CustomButton} from "../customButton/customButton";
-import {header, headerOne, search} from "../constants";
+import {header, headerOne, searchButton} from "../constants";
 export const DescriptionOne = () => {
     return (
         <div className="description-container">
@@ -17,7 +17,7 @@ export const DescriptionOne = () => {
                     <img className="search-style" src={search} alt="search" />
                     <input className="input-description" placeholder="find more than 430+ tools..."/>
                     </div>
-                    <CustomButton buttonText={search}/>
+                    <CustomButton buttonText={searchButton}/>
                 </div>
                 <div className="social-network">
                     <img className="facebookIcon" src={facebookIcon} alt="facebookIcon" />
