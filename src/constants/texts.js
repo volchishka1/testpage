@@ -16,7 +16,12 @@ export const visualStudio = "Visual Studio Code";
 export const notion = "Notion";
 export const slack = "Slack";
 export const invision = "Invision";
+export const zeplin = "Zeplin";
+export const phpStorm = "PHPStorm";
+export const toolBox = "ToolBox";
+export const procreate = "Procreate";
 export const free = "Free";
+export const paid = "Paid";
 export const freePaid = "Free & Paid";
 export const trialPaid = "Trial & Paid";
 
