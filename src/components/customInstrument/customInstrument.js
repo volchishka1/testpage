@@ -2,6 +2,7 @@ import heardIcon from "../../assets/heardIcon.svg";
 import folderIcon from "../../assets/folderIcon.svg";
 import {CustomButton} from "../customButton/customButton";
 import "./customInstrument.css"
+import {customButtonInstrument, descriptionToolInstrument} from "../../constants";
 export const CustomInstrument = (props) => {
     const {name, status, iconName} = props;
 
@@ -15,13 +16,13 @@ export const CustomInstrument = (props) => {
                 </div>
             </div>
             <div className="description-tool-container">
-                <span className="description-tool-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <span className="description-tool-one">{descriptionToolInstrument}</span>
             </div>
             <div className="down-container">
                 <img className="heard-icon" src={heardIcon} alt="heardIcon" />
                 <img className="folder-icon" src={folderIcon} alt="heardIcon" />
                 <div className="button">
-                    <CustomButton buttonText="Visit" />
+                    <CustomButton buttonText={customButtonInstrument} />
                 </div>
             </div>
         </div>

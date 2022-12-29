@@ -6,6 +6,7 @@ import {Brand} from "./components/brand/brand";
 import {Newcomer} from "./components/newcomer/newcomer";
 import {Testimonial} from "./components/testimonial/testimonial";
 import {Join} from "./components/join/join";
+import {Footer} from "./components/footer/footer";
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
       <Newcomer />
       <Testimonial />
       <Join />
+      <Footer />
     </div>
   );
 }

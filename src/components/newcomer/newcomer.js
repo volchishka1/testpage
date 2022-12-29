@@ -1,7 +1,16 @@
 import "./newcomer.css"
 import {CustomButton} from "../customButton/customButton";
 import {CustomInstrument} from "../customInstrument/customInstrument";
-import {freePaid, free, paid, zeplin, phpStorm, toolBox, procreate} from "../../constants";
+import {
+    freePaid,
+    free,
+    paid,
+    zeplin,
+    phpStorm,
+    toolBox,
+    procreate,
+    newcomerHeader, newcomerDescription, newcomerButton
+} from "../../constants";
 import zeplinIcon from "../../assets/zeplinIcon.svg";
 import phpStormIcon from "../../assets/phpStormIcon.svg";
 import toolBoxIcon from "../../assets/toolBoxIcon.svg";
@@ -11,9 +20,9 @@ export const Newcomer = () => {
     return (
         <div className="newcomer-container">
             <div className="header-container-newcomer">
-                <span className="header">Newcomer Tools</span>
-                <span className="description-newcomer">Wow! see the latest update of the most recommended tools from reliable designers and developers</span>
-                <CustomButton buttonText="Explore more" />
+                <span className="header-newcomer">{newcomerHeader}</span>
+                <span className="description-newcomer">{newcomerDescription}</span>
+                <CustomButton buttonText={newcomerButton} />
             </div>
             <div className="custom-instrument-container">
                 <div className="custom-instrument-top">

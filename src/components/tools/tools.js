@@ -16,7 +16,7 @@ import {
     invision,
     slack,
     notion,
-    trialPaid, freePaid
+    trialPaid, freePaid, loadMore
 } from "../../constants";
 import {CustomButton} from "../customButton/customButton";
 
@@ -37,7 +37,7 @@ export const Tools = () => {
                 <CustomInstrument name={slack} status={freePaid} iconName={slackIcon}/>
                 <CustomInstrument name={invision} status={freePaid} iconName={invisionIcon}/>
             </div>
-            <CustomButton buttonText="Load more" />
+            <CustomButton buttonText={loadMore} />
         </div>
     )
 }

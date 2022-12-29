@@ -2,7 +2,7 @@ import './headerStyle.css'
 import logoSvg from "../../assets/logoSvg.svg";
 import vectorDown from "../../assets/vectorDown.svg";
 import {CustomButton} from "../customButton/customButton";
-import {blog, myCollections, singUp, categories, antools, home, login} from "../../constants";
+import {blog, myCollections, singUp, categories, home, login, logoName} from "../../constants";
 
 export const Header = () => {
     return (
@@ -10,7 +10,7 @@ export const Header = () => {
         <header className="App-header-container">
             <div className="Header-logo-container">
                 <img src={logoSvg} alt="logoSvg" />
-                <span className="Logo-text">{antools}</span>
+                <span className="Logo-text">{logoName}</span>
             </div>
             <div className="Header-text-center-container">
                 <span>{home}</span>
