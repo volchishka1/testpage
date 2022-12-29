@@ -1,0 +1,20 @@
+import "./brand.css"
+import microsoftLogo from "../../assets/microsoftLogo.svg";
+import googleLogo from "../../assets/googleLogo.svg";
+import slackLogo from "../../assets/slackLogo.svg";
+import wordPressLogo from "../../assets/wordPressLogo.svg";
+import {headerBrand} from "../../constants";
+
+export const Brand = () => {
+    return (
+        <div className="header-container-brand">
+            <span className="header-brand">{headerBrand}</span>
+            <div className="logo-container">
+                <img src={microsoftLogo} alt="microsoftLogo" />
+                <img src={googleLogo} alt="microsoftLogo" />
+                <img src={slackLogo} alt="microsoftLogo" />
+                <img src={wordPressLogo} alt="microsoftLogo" />
+            </div>
+        </div>
+    )
+}

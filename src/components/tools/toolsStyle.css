@@ -1,0 +1,51 @@
+.tools-container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container-tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headers {
+    width: 455px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.header-one {
+    margin-top: 25px;
+    width: 350px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.instruments-container-top {
+    display: flex;
+    flex-direction: row;
+    margin-top: 143px;
+    margin-left: 111px;
+}
+
+.instruments-container-down {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-left: 111px;
+    margin-bottom: 133px;
+}

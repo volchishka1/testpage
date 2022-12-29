@@ -1,0 +1,19 @@
+.button-style {
+    width: 118px;
+    height: 48px;
+    background-color: #FF6E30;
+    border-radius: 8px;
+    border-color: #FF6E30;
+    border-width: 1px;
+}
+
+.button-text {
+    width: 62px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FDF5FF;
+}
