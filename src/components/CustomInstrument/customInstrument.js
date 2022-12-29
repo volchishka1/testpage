@@ -14,7 +14,9 @@ export const CustomInstrument = (props) => {
                     <span className="tool-status">{status}</span>
                 </div>
             </div>
-            <span className="description-tool-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <div className="description-tool-container">
+                <span className="description-tool-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            </div>
             <div className="down-container">
                 <img className="heard-icon" src={heardIcon} alt="heardIcon" />
                 <img className="folder-icon" src={folderIcon} alt="heardIcon" />
