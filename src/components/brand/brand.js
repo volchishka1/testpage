@@ -6,7 +6,7 @@ import wordPressLogo from "../../assets/wordPressLogo.svg";
 
 export const Brand = () => {
     return (
-        <div className="header-container">
+        <div className="header-container-brand">
             <span className="header">Trusted more than 150+ brand</span>
             <div className="logo-container">
                 <img src={microsoftLogo} alt="microsoftLogo" />
