@@ -3,6 +3,7 @@ import {Header} from "./components/header/header";
 import {DescriptionOne} from "./components/descriptionOne/descriptionOne";
 import {Tools} from "./components/tools/tools";
 import {Brand} from "./components/brand/brand";
+import {Newcomer} from "./components/newcomer/newcomer";
 
 export const App = () => {
   return (
@@ -11,6 +12,7 @@ export const App = () => {
       <DescriptionOne />
       <Tools />
       <Brand />
+      <Newcomer />
     </div>
   );
 }
