@@ -1,0 +1,54 @@
+.newcomer-container {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    justify-content: space-around;
+    margin-top: 220px;
+}
+
+.header-container-newcomer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+
+}
+
+.header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.description-newcomer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.custom-instrument-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-instrument-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.custom-instrument-down {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
