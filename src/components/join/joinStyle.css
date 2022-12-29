@@ -1,0 +1,36 @@
+.join-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.header-join {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.description-join {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 25px;
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 240px;
+}
