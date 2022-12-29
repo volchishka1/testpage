@@ -1,5 +1,5 @@
 import './toolsStyle.css'
-import {CustomInstrument} from "../CustomInstrument/customInstrument.js";
+import {CustomInstrument} from "../customInstrument/customInstrument.js";
 import figmaIcon from "../../assets/figmaIcon.svg";
 import diamondIcon from "../../assets/diamondIcon.svg";
 import visualStudioIcon from "../../assets/visualStudioIcon.svg";

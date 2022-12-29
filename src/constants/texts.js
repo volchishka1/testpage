@@ -8,6 +8,7 @@ export const login = "Login";
 export const header = "Awesome tools for Designer & Developer";
 export const headerOne = "Antool is a web collection of information on paid or free Design and Development tools";
 export const searchButton = "Search";
+export const joinUsButton = "Join Us";
 export const tools = "Most Popular Tools";
 export const descriptionTools = "Tools for the best Designers and Developers most popularly used in the world";
 export const figma = "Figma";
@@ -24,4 +25,6 @@ export const free = "Free";
 export const paid = "Paid";
 export const freePaid = "Free & Paid";
 export const trialPaid = "Trial & Paid";
+export const findMore = "find more than 430+ tools...";
+export const enterEmail = "Enter your email...";
 

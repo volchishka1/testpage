@@ -37,39 +37,7 @@
     line-height: 30px;
     color: rgba(255, 255, 255, 0.55);
     margin-top: 30px;
-}
-
-.input-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 450px;
-    height: 64px;
-    margin-top: 60px;
-    background-color: #283036;
-    border-radius: 15px;
-    padding-right: 11px;
-}
-
-.search-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 18px;
-}
-
-.search-style {
-    height: 24px;
-}
-
-.input-description {
-    color: rgba(255, 255, 255, 0.38);
-    height: 20px;
-    width: 190px;
-    margin-left: 13px;
-    background-color: #283036;
-    border-width: 0px;
+    margin-bottom: 60px;
 }
 
 .social-network {

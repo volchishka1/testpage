@@ -1,6 +1,6 @@
 import "./newcomer.css"
 import {CustomButton} from "../customButton/customButton";
-import {CustomInstrument} from "../CustomInstrument/customInstrument";
+import {CustomInstrument} from "../customInstrument/customInstrument";
 import {freePaid, free, paid, zeplin, phpStorm, toolBox, procreate} from "../../constants";
 import zeplinIcon from "../../assets/zeplinIcon.svg";
 import phpStormIcon from "../../assets/phpStormIcon.svg";
