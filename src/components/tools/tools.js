@@ -23,7 +23,7 @@ import {CustomButton} from "../customButton/customButton";
 export const Tools = () => {
     return (
         <div className="tools-container">
-            <div className="header-container">
+            <div className="header-container-tools">
                 <span className="headers">{tools}</span>
                 <span className="header-one">{descriptionTools}</span>
             </div>
